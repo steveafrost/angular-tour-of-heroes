@@ -3,5 +3,7 @@
   <span>id: </span>{{hero.id}}
 </div>
 <div>
-  <span>name: </span>{{hero.name}}
+  <label>name:
+    <input [(ngModel)]="hero.name" placeholder="name">
+  </label>
 </div>
